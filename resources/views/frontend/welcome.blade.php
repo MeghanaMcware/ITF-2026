@@ -21,7 +21,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="hero-height">
-                            <div class="hero-bg bg-cover" style="background-image: url('frontend/img/home-4/hero/hero-bg.jpg');"></div>
+                            <div class="hero-bg bg-cover" style="background-image: url('https://itf2025.organics-millets.in/images/page-title/hm-ban-3.jpg');"></div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-12">
@@ -46,7 +46,7 @@
                     </div>
                      <div class="swiper-slide">
                         <div class="hero-height">
-                            <div class="hero-bg bg-cover" style="background-image: url('frontend/img/home-4/hero/hero-bg2.jpg');"></div>
+                            <div class="hero-bg bg-cover" style="background-image: url('https://itf2025.organics-millets.in/images/page-title/hm-ban-3.jpg');"></div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-12">
@@ -155,7 +155,66 @@
                 </div>
             </div>
         </div>
-        <!-- Shop Section Start -->
+  <!-- counter Section Start -->
+        <section class="counter-section-3 section-padding fix pt-0 mb-0">
+    <div class="bottom-shape">
+        <img src="frontend/img/home-1/service/bottom-shape.png" alt="img">
+    </div>
+    <div class="container">
+        <div class="counter-wrapper-3">
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".2s">
+                <div class="icon">
+                    <i class="flaticon-market"></i>
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="163">00</span>+</h2>
+                    <p>Exhibitors</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".4s">
+                <div class="icon">
+                    <i class="flaticon-farmer"></i>
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="68">00</span></h2>
+                    <p>Speakers</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".6s">
+                <div class="icon">
+                    <i class="flaticon-commodity"></i>
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="333">00</span></h2>
+                    <p>B2B Connects</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
+                <div class="icon">
+                    <i class="flaticon-agriculture-1"></i>
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="30">00</span>+</h2>
+                    <p>Sessions</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="counter-box-items wow fadeInUp" data-wow-delay=".8s">
+                <div class="icon">
+                    <i class="flaticon-fruit"></i>
+                </div>
+                <div class="content">
+                    <h2><span class="odometer" data-count="20">00</span>+</h2>
+                    <p>Food Stalls</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- promotion Section Start -->
     <section class="project-section-2 section-padding fix">
         <div class="container">
             <div class="section-title text-center">
@@ -168,7 +227,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="project-image-items-2">
-                            <img src="{ asset('frontend/img/home-2/project/project-01.jpg') }}" alt="img">
+                            <img src="frontend/img/resized_536x658_Culinarysym1.jpg" alt="img">
                             <div class="content">
                                 <span>Publicity and Promotions</span>
                                 <h3><a href="project-details.html">
@@ -188,7 +247,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="project-image-items-2">
-                            <img src="frontend/img/home-2/project/project-02.jpg" alt="img">
+                            <img src="frontend/img/resized_536x658_curtain-raiser-2025.jpeg" alt="img">
                             <div class="content">
                                 <span>Publicity and Promotions</span>
                                 <h3><a href="project-details.html">World Soil Day</a></h3>
@@ -204,7 +263,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="project-image-items-2">
-                            <img src="frontend/img/home-2/project/project-03.jpg" alt="img">
+                            <img src="frontend/img/resized_536x658_songlaunch.jpeg" alt="img">
                             <div class="content">
                                 <span>Publicity and Promotions</span>
                                 <h3><a href="project-details.html">
@@ -232,7 +291,7 @@
     </section>
     <!-- gallery Section Start -->
     <div class="gallery-line">
-        <img src="frontend/img/home-3/project-line.png" alt="">
+        <img src="" alt="">
     </div>
     <section class="gallery-section-3 fix section-padding">
 
@@ -254,7 +313,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="gallery-image-box-3">
-                            <img src="frontend/img/home-3/gallery/gallery-01.jpg" alt="img">
+                            <img src="frontend/img/image1_536x600.jpg" alt="img">
                             <div class="content">
                                 <p>Gallery</p>
                                 <h3><a href="project-details.html">Organics & Millets</a></h3>
@@ -263,7 +322,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="gallery-image-box-3">
-                            <img src="frontend/img/home-3/gallery/gallery-02.jpg" alt="img">
+                            <img src="frontend/img/image3_536x674.jpg" alt="img">
                             <div class="content">
                                 <p>Gallery</p>
                                 <h3><a href="project-details.html">Organics & Millets</a></h3>
@@ -272,7 +331,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="gallery-image-box-3">
-                            <img src="frontend/img/home-3/gallery/gallery-03.jpg" alt="img">
+                            <img src="frontend/img/image2_536x600.jpg" alt="img">
                             <div class="content">
                                 <p>Gallery</p>
                                 <h3><a href="project-details.html">Organics & Millets</a></h3>
@@ -281,7 +340,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="gallery-image-box-3">
-                            <img src="frontend/img/home-3/gallery/gallery-04.jpg" alt="img">
+                            <img src="frontend/img/image3_536x674.jpg" alt="img">
                             <div class="content">
                                 <p>Gallery</p>
                                 <h3><a href="project-details.html">Organics & Millets</a></h3>
@@ -319,7 +378,7 @@
                                         </div>
                                         <div class="content">
                                             <h5>Call Us</h5>
-                                            <p><a href="tel:+69009494094">+69 009 494 094</a></p>
+                                            <p><a href="tel:+69009494094">080-22074111</a></p>
                                         </div>
                                     </li>
                                     <li class="wow fadeInUp" data-wow-delay=".5s">
@@ -328,7 +387,7 @@
                                         </div>
                                         <div class="content">
                                             <h5>Our Location</h5>
-                                            <p>147 New Yors, NY Adipisicing 123</p>
+                                            <p>No. 1, Sheshadri Road, Bangalore, Karnataka-560001</p>
                                         </div>
                                     </li>
                                     <li class="wow fadeInUp" data-wow-delay=".7s">
@@ -337,7 +396,7 @@
                                         </div>
                                         <div class="content">
                                             <h5>Mail us</h5>
-                                            <p><a href="mailto:hello@agron.com">hello@agron.com</a></p>
+                                            <p><a href="mailto:hello@agron.com">itf2025organiccell@gmail.com</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -423,7 +482,8 @@
                 </div>
             </div>
         </section>
-         <div class="brand-section">
+        <!-- brand Section Start -->
+         <div class="brand-section mb-5">
             <div class="container">
                 <div class="top-text text-center wow fadeInUp">
                     <p></p>
@@ -432,32 +492,32 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
-                                <img src="frontend/img/home-1/brand/brand-01.png" alt="img">
+                                <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
-                                <img src="frontend/img/home-1/brand/brand-02.png" alt="img">
+                                <img src="frontend/img/kapp ec_110x110.jpg" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
-                                <img src="frontend/img/home-1/brand/brand-03.png" alt="img">
+                                <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
-                                <img src="frontend/img/home-1/brand/brand-04.png" alt="img">
+                                <img src="frontend/img/kapp ec_110x110.jpg" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
-                                <img src="frontend/img/home-1/brand/brand-05.png" alt="img">
+                                <img src="frontend/img/government_karnataka_110x110.jpg" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image text-center">
-                                <img src="frontend/img/home-1/brand/brand-06.png" alt="img">
+                                <img src="frontend/img/kapp ec_110x110.jpg" alt="img">
                             </div>
                         </div>
                     </div>
