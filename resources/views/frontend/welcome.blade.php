@@ -291,7 +291,7 @@
     </section>
     <!-- gallery Section Start -->
     <div class="gallery-line">
-        <img src="" alt="">
+        <img src="frontend/img/home-3/project-line.png" alt="img">
     </div>
     <section class="gallery-section-3 fix section-padding">
 
