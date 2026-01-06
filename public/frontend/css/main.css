@@ -5104,16 +5104,16 @@ p {
   position: relative;
   z-index: 9;
 }
-.choose-us-wrapper-3 .choose-us-image-items.white-style::before {
+/* .choose-us-wrapper-3 .choose-us-image-items.white-style::before {
   background-color: var(--white);
-}
+} */
 .choose-us-wrapper-3 .choose-us-image-items::before {
   width: 317px;
   height: 244px;
   bottom: 0;
   right: 0;
   content: "";
-  background-color: #EDF2EC;
+ 
   position: absolute;
   transition: all 0.4s ease-in-out;
   z-index: 1;

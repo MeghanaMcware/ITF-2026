@@ -92,7 +92,8 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="index.html">
-                                    <img src="frontend/img/logo/black-logo.svg" alt="logo-img">
+                                   <img src="{{ asset('frontend/img/logo/eng-logo.jpeg') }}" alt="ENG Logo">
+
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -120,7 +121,7 @@
                                     </div>
                                     <div class="content">
                                         <p>Call Us</p>
-                                        <h4><a href="tel:+4903983493999">+49 (03) 9834 939 99</a></h4>
+                                        <h4><a href="tel:+080-22074111">+080-22074111</a></h4>
                                     </div>
                                 </li>
                                 <li>
@@ -129,7 +130,7 @@
                                     </div>
                                     <div class="content">
                                         <p>Send Email</p>
-                                        <h4><a href="mailto:yordomain@gmial.com">yordomain@gmial.com</a></h4>
+                                        <h4><a href="mailto:yordomain@gmial.com">itf2025organiccell@gmail.com</a></h4>
                                     </div>
                                 </li>
                                 <li>
@@ -139,14 +140,16 @@
                                     <div class="content">
                                         <p>Location</p>
                                         <h4>
-                                            Chicago 53755 NY, USA
+                                           
+No. 1, Sheshadri Road, Bangalore, Karnataka-560001
+
                                         </h4>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                        <a href="contact.html" class="theme-btn">
-                            Let’s Talk
+                            Department Login
                             <i class="far fa-arrow-right"></i>
                         </a>
                     </div>
@@ -155,79 +158,32 @@
         </div>
         <div class="offcanvas__overlay"></div>
 
-        <!-- Header Top Start -->
-        <div class="header-top-section">
-            <div class="container">
-                <div class="header-top-wrapper">
-                    <ul class="header-contact-list">
-                        <li>
-                            <i class="fal fa-envelope"></i>
-                            <a href="mailto:agron@gmial.com">
-                                agron@gmial.com
-                            </a>
-                        </li>
-                        <li>
-                            <i class="far fa-phone-alt"></i>
-                            <a href="tel:+00479394888">
-                                +00 (47) 939 4888
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="index.html" class="top-logo">
-                        <img src="frontend/img/logo/black-logo.svg" alt="img">
-                    </a>
-                    <div class="head-right">
-                        <div class="flag-wrap">
-                            <div class="flag">
-                                <img src="frontend/img/flag.png" alt="flag">
-                            </div>
-                            <select class="single-select w-100">
-                                <option>EN</option>
-                                <option>AU</option>
-                                <option>NZ</option>
-                            </select>
-                        </div>
-                        <div class="line-shape"></div>
-                        <div class="social-icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-dribbble"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Header Section Start -->
-        <header id="header-sticky" class="header-1 header-5">
+        <header id="header-sticky" class="header-2">
             <div class="container">
                 <div class="mega-menu-wrapper">
-                <div class="header-main">
-                    <form action="#" class="search-form">
-                        <input type="text" placeholder="Search anything...">
-                        <button type="submit"><i class="fal fa-search"></i></button>
-                    </form>
+                    <div class="header-main">
                         <a href="index.html" class="header-logo">
-                            <img src="frontend/img/logo/black-logo.svg" alt="img">
+                             <img src="{{ asset('frontend/img/logo/eng-logo.jpeg') }}" alt="ENG Logo">
+
                         </a>
-                        <div class="mean__menu-wrapper">
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                             <div class="mean__menu-wrapper">
                             <div class="main-menu">
-                                <nav id="mobile-menu">
+                                 <nav id="mobile-menu">
                                     <ul>
                                         <li class="has-dropdown menu-thumb">
                                             <a href="javascript:void(0)">
                                                 Home
-                                                <i class="fas fa-chevron-down"></i>
+                                                <!-- <i class="fas fa-chevron-down"></i> -->
                                             </a>
-                                            <ul class="submenu has-homemenu">
+                                            <!-- <ul class="submenu has-homemenu">
                                                 <li>
                                                     <div class="homemenu-items">
                                                         <div class="row row-cols-xl-5 row-cols-md-2 row-cols-2">
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb">
                                                                     <a href="index.html">
-                                                                        <img src="frontend/img/header/home-1.jpg" alt="img">
+                                                                        <img src="assets/img/header/home-1.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="homemenu-content text-center">
@@ -241,7 +197,7 @@
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
                                                                     <a href="index-2.html">
-                                                                        <img src="frontend/img/header/home-2.jpg" alt="img">
+                                                                        <img src="assets/img/header/home-2.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="homemenu-content text-center">
@@ -255,7 +211,7 @@
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
                                                                     <a href="index-3.html">
-                                                                        <img src="frontend/img/header/home-3.jpg" alt="img">
+                                                                        <img src="assets/img/header/home-3.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="homemenu-content text-center">
@@ -269,7 +225,7 @@
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
                                                                     <a href="index-4.html">
-                                                                        <img src="frontend/img/header/home-4.jpg" alt="img">
+                                                                        <img src="assets/img/header/home-4.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="homemenu-content text-center">
@@ -283,7 +239,7 @@
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
                                                                     <a href="index-5.html">
-                                                                        <img src="frontend/img/header/home-5.jpg" alt="img">
+                                                                        <img src="assets/img/header/home-5.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="homemenu-content text-center">
@@ -297,31 +253,31 @@
                                                         </div>
                                                     </div>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li class="has-dropdown active d-xl-none">
                                             <a href="javascript:void(0)" class="border-none">
                                             Home
                                             </a>
-                                            <ul class="submenu">
+                                            <!-- <ul class="submenu">
                                                 <li><a href="index.html">Home 01</a></li>
                                                 <li><a href="index-2.html">Home 02</a></li>
                                                 <li><a href="index-3.html">Home 03</a></li>
                                                 <li><a href="index-4.html">Home 04</a></li>
                                                 <li><a href="index-5.html">Home 05</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li>
                                             <a href="about.html">
-                                                About Us
+                                                About ITF
                                             </a>
                                         </li>
                                         <li class="has-dropdown">
                                             <a href="javascript:void(0)">
-                                                Pages
-                                                <i class="fas fa-chevron-down"></i>
+                                                Registrations
+                                                <!-- <i class="fas fa-chevron-down"></i> -->
                                             </a>
-                                            <ul class="submenu">
+                                            <!-- <ul class="submenu">
                                                 <li class="has-dropdown">
                                                      <a href="javascript:void(0)">
                                                         Projects
@@ -349,48 +305,56 @@
                                                 <li><a href="faq.html">Faqs</a></li>
                                                 <li><a href="comming-soon.html">Comming Soon</a></li>
                                                 <li><a href="404.html">404 Error</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li>
                                             <a href="javascript:void(0)">
-                                                Services
-                                                <i class="fas fa-chevron-down"></i>
+                                               Resources
+
+                                                <!-- <i class="fas fa-chevron-down"></i> -->
                                             </a>
-                                            <ul class="submenu">
+                                            <!-- <ul class="submenu">
                                                 <li><a href="service.html">Our Services</a></li>
                                                 <li><a href="service-details.html">Service Details</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li>
                                             <a href="javascript:void(0)">
-                                                News
-                                                <i class="fas fa-chevron-down"></i>
+                                               Gallery
+                                                <!-- <i class="fas fa-chevron-down"></i> -->
                                             </a>
-                                            <ul class="submenu">
+                                            <!-- <ul class="submenu">
                                                 <li><a href="news-grid.html">News Gird</a></li>
                                                 <li><a href="news.html">News Standard</a></li>
                                                 <li><a href="news-details.html">News Details</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li>
                                             <a href="javascript:void(0)">
-                                                Shop
-                                                <i class="fas fa-chevron-down"></i>
+                                              Contact
+                                                <!-- <i class="fas fa-chevron-down"></i> -->
                                             </a>
-                                            <ul class="submenu">
+                                            <!-- <ul class="submenu">
                                                 <li><a href="shop.html">Shop Page</a></li>
                                                 <li><a href="shop-details.html">Shop Details</a></li>
                                                 <li><a href="shop-cart.html">Shop Cart</a></li>
                                                 <li><a href="checkout.html">CheckOut</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="header-right d-flex justify-content-end align-items-center">
+                        <!-- <div class="header-right-icon">
+                            <a href="#" class="main-header__search search-toggler">
+                               <i class="far fa-search"></i>
+                            </a>
+                           <button id="openButton" class="cart-icon"><i class="far fa-shopping-bag"></i>
+                                <span>2</span>
+                            </button>
+                        </div> -->
                            <a href="contact.html" class="theme-btn">
-                               Let’s Talk
+                               Department Login
                                 <i class="far fa-arrow-right"></i>
                             </a>
                             <div class="header__hamburger my-auto">
